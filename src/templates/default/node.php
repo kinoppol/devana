@@ -36,7 +36,7 @@ if (isset($_SESSION[$shortTitle.'User']['id'], $_GET['action']))
     $i=0;
     foreach ($node->modules as $module)
     {
-     if ($i==3)
+     if ($i==4)
      {
       $i=0;
       echo '</div>';
